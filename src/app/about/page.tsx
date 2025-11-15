@@ -1,5 +1,5 @@
-import Header from "@/components/Header";
-import SiteFooter from "@/components/SiteFooter";
+import Header from "@/components/layout/Header";
+import SiteFooter from "@/components/layout/SiteFooter";
 
 export default function AboutPage() {
   return (

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "تلسکوپ – مانیتورینگ رسانه و شبکه‌های اجتماعی",
+  title: "تلسکوپ - مانیتورینگ رسانه و شبکه‌های اجتماعی",
   description:
-    "لندینگ‌پیج نمونه برای پلتفرم مانیتورینگ شبکه‌های اجتماعی و رسانه‌ها (Next.js + Tailwind).",
+    "پنل هوشمند شنیدن اجتماعی و مانیتورینگ رسانه برای برندهای امروزی. رصد شبکه‌های اجتماعی، وب‌سایت‌ها و رسانه‌ها در یک داشبورد یکپارچه.",
 };
 
 export default function RootLayout({

@@ -26,7 +26,7 @@ export default function SiteFooter() {
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-slate-300">
+                <a href="/pricing" className="hover:text-slate-300">
                   قیمت‌ها
                 </a>
               </li>

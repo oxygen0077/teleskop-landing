@@ -1,7 +1,6 @@
-import Header from "@/components/Header";
-import Pricing from "@/components/Pricing";
-import ContactSection from "@/components/ContactSection";
-import SiteFooter from "@/components/SiteFooter";
+import Header from "@/components/layout/Header";
+import SiteFooter from "@/components/layout/SiteFooter";
+import ContactSection from "@/components/sections/shared/ContactSection";
 
 export default function PricingPage() {
   return (
@@ -16,13 +15,12 @@ export default function PricingPage() {
             </h1>
             <p className="mt-2 text-sm text-slate-400">
               در این صفحه می‌توانید جزئیات کامل پلن‌ها را ببینید و هر زمان
-              بخواهید آن‌ها را تغییر دهید. این متن فعلاً نمایشی است و می‌توانید
-              بعداً سفارشی‌اش کنید.
+              بخواهید آن‌ها را تغییر دهید. این متن فعلاً نمایشی است.
             </p>
           </div>
         </section>
 
-        <Pricing />
+        {/* می‌تونی بعداً یک سکشن Pricing جدا بسازی و اینجا استفاده کنی */}
         <ContactSection />
       </main>
       <SiteFooter />

@@ -39,17 +39,15 @@ export default function Hero() {
 
           <dl className="mt-7 flex flex-wrap gap-6 text-xs text-slate-400">
             <div>
-              <dt className="text-slate-400">افزایش سرعت واکنش به بحران</dt>
+              <dt>افزایش سرعت واکنش به بحران</dt>
               <dd className="text-base font-semibold text-slate-50">+۳۲٪</dd>
             </div>
             <div>
-              <dt className="text-slate-400">
-                منبع خبری و شبکه اجتماعی رصدشده
-              </dt>
+              <dt>منبع خبری و شبکه اجتماعی رصدشده</dt>
               <dd className="text-base font-semibold text-slate-50">+۵۰K</dd>
             </div>
             <div>
-              <dt className="text-slate-400">میانگین زمان کشف منشن جدید</dt>
+              <dt>میانگین زمان کشف منشن جدید</dt>
               <dd className="text-base font-semibold text-slate-50">
                 &lt;۵ دقیقه
               </dd>

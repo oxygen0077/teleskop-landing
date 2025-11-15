@@ -1,11 +1,10 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Logos from "@/components/Logos";
-import Features from "@/components/Features";
-import UseCases from "@/components/UseCases";
-import Pricing from "@/components/Pricing";
-import ContactSection from "@/components/ContactSection";
-import SiteFooter from "@/components/SiteFooter";
+import Header from "@/components/layout/Header";
+import SiteFooter from "@/components/layout/SiteFooter";
+import Hero from "@/components/sections/home/Hero";
+import Logos from "@/components/sections/home/Logos";
+import Features from "@/components/sections/home/Features";
+import UseCases from "@/components/sections/home/UseCases";
+import ContactSection from "@/components/sections/shared/ContactSection";
 
 export default function HomePage() {
   return (
@@ -16,7 +15,6 @@ export default function HomePage() {
         <Logos />
         <Features />
         <UseCases />
-        <Pricing />
         <ContactSection />
       </main>
       <SiteFooter />

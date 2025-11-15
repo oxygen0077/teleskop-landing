@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
-import ContactSection from "@/components/ContactSection";
-import SiteFooter from "@/components/SiteFooter";
+import Header from "@/components/layout/Header";
+import SiteFooter from "@/components/layout/SiteFooter";
+import ContactSection from "@/components/sections/shared/ContactSection";
 
 export default function ContactPage() {
   return (
